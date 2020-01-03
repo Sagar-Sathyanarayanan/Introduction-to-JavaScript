@@ -185,7 +185,7 @@ console.log(solution);
 ```
 Directions:
 ```
-![](Sagar-Sathyanarayanan/Introduction-to-JavaScript/blob/master/red%20Seats.PNG)
+![](red%20Seats.PNG)
 Creative Commons - Jeffrey Smith - "State Theater"
 
 
