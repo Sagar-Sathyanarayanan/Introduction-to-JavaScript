@@ -12,7 +12,7 @@ Questions solved on Loops (While Loops, For Loops and Nested Loops)
 *If the number is not divisible by 3 or 5, print the number
 
 ## Answer: 
-
+'''
 /* The question states that the starting number will be 1. Hence, equate variable (var) = 1 */
 
 var x = 1; 
@@ -32,3 +32,4 @@ while(x <=20){
     x++ /* This is incremeting the number x by x + 1. This can also be written as x = x+ 1 */
  
  }   
+'''
