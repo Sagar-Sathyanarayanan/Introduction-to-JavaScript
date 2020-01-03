@@ -104,7 +104,7 @@ while (sec >=0){
 }
 
 ```
-
+## For Loops
 ## Question 4: Changing the Loops
 
 ```
@@ -269,4 +269,38 @@ for (var num = 99;num >=0;num--) {
            
     }
    
+```
+## Question 11: Countdown, Liftoff! - For Loop
+```
+NASA's countdown to launch includes checkpoints where NASA engineers complete certain technical tasks. During the final minute, NASA has 6 tasks to complete:
+
+# Orbiter transfers from ground to internal power (T-50 seconds)
+# Ground launch sequencer is go for auto sequence start (T-31 seconds)
+# Activate launch pad sound suppression system (T-16 seconds)
+# Activate main engine hydrogen burnoff system (T-10 seconds)
+# Main engine start (T-6 seconds)
+# Solid rocket booster ignition and liftoff! (T-0 seconds)
+```
+## Answer 11: 
+```
+var message = "" 
+for (var sec = 60;sec >=0; sec--){
+  if(sec ===50){
+    message ="Orbiter transfers from ground to internal power";
+ }else if(sec===31){
+    message = "Ground launch sequencer is go for auto sequence start";
+ }else if(sec===16){
+    message = "Activate launch pad sound suppression system";
+ }else if(sec===10){
+    message = "Activate main engine hydrogen burnoff system";
+ }else if(sec===6){
+     message ="Main engine start";
+ }else if(sec===0){
+     message ="Solid rocket booster ignition and liftoff!";
+ }else{
+     message = "T-"+sec+ "seconds";
+ }
+ 
+ console.log(message);
+}
 ```
