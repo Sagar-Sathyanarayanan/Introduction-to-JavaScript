@@ -78,6 +78,7 @@ Activate main engine hydrogen burnoff system (T-10 seconds)
 Main engine start (T-6 seconds)
 Solid rocket booster ignition and liftoff! (T-0 seconds)
 ```
+```
 var sec = 60; /* setting seconds to 60 as the questions T- counts starts at 60. If the T- count started from any other number, please enter the number in the question */
 
 var message = "" 
@@ -104,4 +105,4 @@ while (sec >=0){
 
 ```
 
-##Qus
+## Question 4:
