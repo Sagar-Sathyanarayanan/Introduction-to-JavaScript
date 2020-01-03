@@ -214,7 +214,7 @@ for(var x =0;x<26;x++){
 ## Question 9: Julia-James done using for loop. 
 
 ```
-Write a while loop that:
+Write a for loop that:
 
 *Loop through the numbers 1 to 20
 *If the number is divisible by 3, print "Julia"
@@ -239,3 +239,33 @@ for (var x = 1; x <=20; x++) {
     
     }  
 ```
+## Question 10: 99 Bottles with For-Loop
+```
+Write a ##for## loop that prints out the following song. Starting at 99, and ending at 1 bottle.
+
+99 bottles of juice on the wall! 99 bottles of juice! Take one down, pass it around... 98 bottles of juice on the wall!
+98 bottles of juice on the wall! 98 bottles of juice! Take one down, pass it around... 97 bottles of juice on the wall!
+...
+2 bottles of juice on the wall! 2 bottles of juice! Take one down, pass it around... 1 bottle of juice on the wall!
+1 bottle of juice on the wall! 1 bottle of juice! Take one down, pass it around... 0 bottles of juice on the wall!
+```
+## Answer 10: 
+```
+
+
+for (var num = 99;num >=0;num--) {
+       if  (num > 2) {
+           sub=num - 1;
+           console.log(num +" bottles of juice on the wall! " + num+ " bottles of juice! Take one down, pass it around... "+ sub + " bottles of juice on the wall!");
+       }
+        else if (num == 2){
+            sub=num - 1;
+           console.log(num +" bottles of juice on the wall! " + num+ " bottles of juice! Take one down, pass it around... "+ sub + " bottle of juice on the wall!");
+        }
+        else if (num === 1) {
+            sub=num - 1;
+           console.log(num +" bottle of juice on the wall! " + num+ " bottle of juice! Take one down, pass it around... "+ sub + " bottles of juice on the wall!");
+        }
+           
+    }
+    ```
