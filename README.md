@@ -71,12 +71,12 @@ while (num >=0) {
 ```
 NASA's countdown to launch includes checkpoints where NASA engineers complete certain technical tasks. During the final minute, NASA has 6 tasks to complete:
 
-Orbiter transfers from ground to internal power (T-50 seconds)
-Ground launch sequencer is go for auto sequence start (T-31 seconds)
-Activate launch pad sound suppression system (T-16 seconds)
-Activate main engine hydrogen burnoff system (T-10 seconds)
-Main engine start (T-6 seconds)
-Solid rocket booster ignition and liftoff! (T-0 seconds)
+# Orbiter transfers from ground to internal power (T-50 seconds)
+# Ground launch sequencer is go for auto sequence start (T-31 seconds)
+# Activate launch pad sound suppression system (T-16 seconds)
+# Activate main engine hydrogen burnoff system (T-10 seconds)
+# Main engine start (T-6 seconds)
+# Solid rocket booster ignition and liftoff! (T-0 seconds)
 ```
 ```
 var sec = 60; /* setting seconds to 60 as the questions T- counts starts at 60. If the T- count started from any other number, please enter the number in the question */
