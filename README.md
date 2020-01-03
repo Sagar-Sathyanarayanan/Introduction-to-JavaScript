@@ -3,7 +3,7 @@ Questions solved on Loops (While Loops, For Loops and Nested Loops)
 
 ## Question 1: 
 ```
-*Write a while loop that:
+Write a while loop that:
 
 *Loop through the numbers 1 to 20
 *If the number is divisible by 3, print "Julia"
