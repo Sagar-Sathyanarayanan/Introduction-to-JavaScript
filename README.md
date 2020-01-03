@@ -181,7 +181,7 @@ for(var x = 1; x<=12; x++){
 }
 console.log(solution);
 ```
-## Question 8: 
+## Question 8: Theater seating
 ```
 Directions:
 ```
