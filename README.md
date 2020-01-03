@@ -105,4 +105,97 @@ while (sec >=0){
 
 ```
 
-## Question 4:
+## Question 4: Changing the Loops
+
+```
+Rewrite the following while loop as a for loop:
+
+var x = 9;
+while (x >= 1) {
+  console.log("hello " + x);
+  x = x - 1;
+}
+```
+## Answer 4: 
+
+```
+for(var x = 9; x >= 1; x = x - 1){
+    console.log("hello" + x); 
+}
+
+```
+## Question 5: Fix the Error 1
+
+```
+Here is a for loop that's supposed to print the numbers 5 through 9. Fix the error!
+
+for (x < 10; x++) /* You can also use the expression x++ instead of x = x+1 */ {
+  console.log(x);
+}
+```
+
+## Answer 5: 
+
+```
+
+for(var x = 5; x < 10; x++) /* This is the same as x = x + 1 */ {
+    console.log(x);
+}
+```
+## Question 6: Fix the error 2
+```
+The for loop below has an error. Fix it!
+
+for (var k = 0 k < 200 k++) {
+  console.log(k);
+}
+```
+## Answer 6: 
+
+```
+for(var k = 0; k < 200; k++){
+    console.log(k);
+
+}
+```
+
+## Question 7: Factorials! 
+```
+Write a for (note: not a function) loop that prints out the factorial of the number 12:
+
+A factorial is calculated by multiplying a number by all the numbers below it. For instance, 3! or "3 factorial" is 3 * 2 * 1 = 6
+
+3! = 3 * 2 * 1 = 63!=3∗2∗1=6
+4! = 4 * 3 * 2 * 1 = 244!=4∗3∗2∗1=24
+5! = 5 * 4 * 3 * 2 * 1 = 1205!=5∗4∗3∗2∗1=120
+
+Save your final answer in a variable called solution and print it to the console.
+```
+## Answer 7: 
+
+```
+
+var solution = 1; 
+for(var x = 1; x<=12; x++){
+    solution = solution * x;
+}
+console.log(solution);
+```
+## Question 8: 
+Directions:
+
+Creative Commons - Jeffrey Smith - "State Theater"
+
+Theater seats often display a row and seat number to help theatergoers find their seats. If there are 26 rows (0 to 25) and 100 seats (0 to 99) in each row, write a nested for loop to print out all of the different seat combinations in the theater.
+
+Example output for row-seat information: output each row and seat number on a separate line
+
+0-0
+0-1
+0-2
+...
+25-97
+25-98
+25-99
+
+
